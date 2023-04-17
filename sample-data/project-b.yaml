@@ -1,0 +1,16 @@
+project_id: "project-b"
+custom_rules:
+  key-rule-b1:
+    description: key-rule-description-a1
+    fr_blocks:
+      - ports: ["122", "1443"]
+        protocol: "tcp"
+      - ports: ["143", "1289"]
+        protocol: "udp"
+  key-rule-b2:
+    description: key-rule-description-a2
+    fr_blocks:
+      - ports: ["132", "1243"]
+        protocol: "tcp"
+      - ports: ["153", "1389"]
+        protocol: "udp"
